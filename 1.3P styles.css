@@ -1,0 +1,140 @@
+body, h1, h2, h3, p, ul, li, label, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header, nav, main {
+  padding: 20px;
+}
+
+nav ul li a {
+  color:turquoise;
+  text-decoration: underline; 
+}
+
+.projects a {
+  color: turquoise;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  background-image: url(https://i1.wp.com/www.hcmtechnologyreport.com/wp-content/uploads/2018/03/data_security.jpg?fit=450%2C275&ssl=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  color: white;
+  padding: 15px;
+}
+
+
+.home-container {
+  padding: 20px; 
+}
+
+.projects-image {
+  max-width: 600px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.about-image {
+  max-width: 40%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto;  
+}
+
+.home-image {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.contact-image {
+  max-width: 50%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.contact-form {
+  border: 2px solid #FFFFFF;
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
+
+.contact-form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+  width: 100%;
+  padding: 7px;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: #333333; 
+  color: white; 
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.contact-form button {
+  background-color: #333333;
+  color: white;
+  border: none;
+  padding: 7px 17px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #C0C0C0;
+}
+
+@media screen and (max-width: 770px) {
+  .form-group {
+    margin-bottom: 20px;
+  }
+}
+
